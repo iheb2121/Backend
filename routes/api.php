@@ -24,7 +24,7 @@ Route::get('/user', function (Request $request) {
 // Route::put('/categories/{id}', [CategorieController::class , 'update']);
 
 Route::middleware('api')->group(function () {
-    Route::resource('categories', CategorieController::class);
+    Route::resource('Categories', CategorieController::class);
 });
 
 
