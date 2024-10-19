@@ -3,8 +3,8 @@
 use App\Http\Controllers\ArticleController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\http\Controllers\CategorieController;
-use App\http\Controllers\ScategorieController;
+use App\Http\Controllers\CategorieController;
+use App\Http\Controllers\ScategorieController;
 
 
 Route::get('/user', function (Request $request) {
